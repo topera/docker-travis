@@ -5,7 +5,7 @@ RUN apt update
 RUN apt upgrade -y
 RUN apt install ruby ruby-dev build-essential -y
 RUN gem install travis
+RUN apt install git
 
 # Run step
-#ENTRYPOINT ["/usr/local/bundle/bin/travis"]
-#CMD ["version"]
+# Nothing to do. This image is ephemeral (not running server, etc)
