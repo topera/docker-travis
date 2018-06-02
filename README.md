@@ -7,4 +7,4 @@ in it's own machine.
 ## How to use
 * Install [Docker](https://docs.docker.com/install)
 * Run `$ docker run --name travis topera/travis`
-* Access terminal inside the docker container: `$ exec -it travis bash`
+* Access terminal inside the docker container: `$ docker exec -it travis bash`
