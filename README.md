@@ -6,5 +6,13 @@ in it's own machine.
 
 ## How to use
 * Install [Docker](https://docs.docker.com/install)
-* Download the image, run the container and start a shell session with:
+* For the first time: download the image and prepare the container to run in interactive mode (`-it`).
     * `$ docker run -it --name travis topera/travis`
+        * Type `exit` to close the terminal
+* Then you can start/stop with:
+    * `$ docker start travis`
+    * `$ docker stop travis`
+* With the container running, you can start a shell session with:
+    * `$ docker exec -it travis bash`
+* Inside the container, just run travis commands, like:
+    * `$ travis login`
