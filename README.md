@@ -17,3 +17,5 @@ in it's own machine.
 * Then you can run many travis commands, like:
     * `$ travis login`
     * `$ travis repos`
+    * `$ travis encrypt secret_access_key=123456 -r your-username/your-repo`
+        * This command is necessary to deploy in AWS Elastic Beanstalk from Travis-CI. [Details](https://docs.travis-ci.com/user/deployment/elasticbeanstalk/)
