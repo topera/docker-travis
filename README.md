@@ -1,7 +1,7 @@
 # Travis
 
 ## Intro
-This is a docker image to run travis from command-line, for those that don't want to install ruby and related things
+This is a Docker image to run Travis-CI from command-line, for those that don't want to install Ruby and related things
 in it's own machine.
 
 ## How to use
