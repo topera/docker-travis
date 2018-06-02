@@ -14,8 +14,6 @@ in it's own machine.
     * `$ docker stop travis`
 * With the container running, you can start a shell session with:
     * `$ docker exec -it travis bash`
-
-## Example of operations
-* Inside the container, just run travis commands, like:
+* Then you can run many travis commands, like:
     * `$ travis login`
     * `$ travis repos`
